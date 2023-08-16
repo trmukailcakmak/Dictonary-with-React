@@ -1,0 +1,17 @@
+.Photos img {
+  border-radius: 4px;
+  margin-top: 15px;
+  transition: 0.5s ease;
+  height: 120px;
+  width: 195px;
+  text-align: center;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
